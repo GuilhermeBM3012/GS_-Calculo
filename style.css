@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #97d0fac0;
+}
+
+
+#titulo{
+    text-align: center;
+    color: rgb(42, 88, 227);
+}
+
+h2{
+    color: rgb(42, 88, 227);
+}
+
+#listaETabela{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    color: rgb(14, 53, 167);
+}
+
+
+table{
+    border: 2px solid black;
+}
+th{
+    background-color: #4699c3;
+    color: #203d9c;
+}
+td{
+    color: rgb(14, 53, 167);
+}
+
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 15px;
+    font-size: 16px;
+    width: 30%;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #0095ffc0;
+}
+
+.respostas{
+    color: rgb(0, 0, 24);
+    background-color: #74cefb;
+    border: 2px solid rgb(0, 34, 250);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#imagem img{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}

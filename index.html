@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">VERIFICADOR DE ENCHENTE</h1><br>
+    <h2>Dias para análise:</h2>
+    <strong>
+    <section id="listaETabela">
+        <div id="listaNaoOrdenada">
+            <ul>
+        <li>05/09/2011</li>
+        <li>06/09/2011</li>
+        <li>07/09/2011</li>
+        <li>08/09/2011</li>
+        <li>09/09/2011</li>
+        <li>10/09/2011</li>
+        <li>11/09/2011</li>
+        <li>12/09/2011</li>
+        <li>13/09/2011</li>
+        <li>14/09/2011</li>
+        <li>15/09/2011</li>
+    </ul>
+        </div>
+        <table border="">
+            <tr>
+                <th>Cotas de referência</th>
+                <th>Medidas (m)</th>
+            </tr>
+            <tr>
+                <td>Alerta</td>
+                <td>Acima de 8 m</td>
+            </tr>
+            <tr>
+                <td>Emergência</td>
+                <td>Acima de 10 m</td>
+            </tr>
+            <tr>
+                <td>Inundação Significativa</td>
+                <td>Acima de 12 m</td>
+            </tr>
+    </table>
+    </section><br><br><br></strong>
+
+    <section>
+        <button onclick="verificar()">Verificar</button>
+    </section><br><br>
+
+
+    <div id="imagem"></div><br><br>
+    
+    <div id="resVerificar"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
